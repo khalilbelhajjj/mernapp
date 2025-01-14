@@ -8,12 +8,9 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                checkout scm: [
-                    $class: 'GitSCM',
-                    branches: [[name: '*/main']],
-                    userRemoteConfigs: [[
-                        url: 'git@github.com:khalilbelhajjj/mernapp.git',
-                        credentialsId: 'git'
+                git branch: 'main',
+                    url: 'git@github.com:khalilbelhajjj/appmern.git',
+                    credentialsId: 'git'
             }
         }
 
