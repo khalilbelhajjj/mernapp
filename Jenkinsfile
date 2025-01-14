@@ -10,7 +10,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     url: 'git@github.com:khalilbelhajjj/appmern.git',
-                    credentialsId: 'git'
+                    credentialsId: 'github_ssh'
             }
         }
 
