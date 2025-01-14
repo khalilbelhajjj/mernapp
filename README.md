@@ -37,6 +37,7 @@ Ce projet a pour objectif de conteneuriser et déployer une application web déj
 - **Push Images to Docker Hub :** Publication des images sur Docker Hub.
 
 - **End :** Fin de la pipeline.
+![Capture d'écran 2025-01-14 035751](https://github.com/user-attachments/assets/f41e2a9f-9cd3-43b2-a3e8-d77fb9d75dd4)
 
 
 #### 3. Cluster Kubernetes local
@@ -49,7 +50,9 @@ Les étapes incluront :
 
 - **Utilisation de Helm Charts :** Automatisez et gérez le déploiement de vos applications avec des Helm charts pour chaque composant de votre application.
 
-- **Intégration d'ArgoCD :** Implémentez une stratégie GitOps en intégrant ArgoCD pour automatiser et gérer les déploiements Kubernetes 
+- **Intégration d'ArgoCD :** Implémentez une stratégie GitOps en intégrant ArgoCD pour automatiser et gérer les déploiements Kubernetes
+- ![argocd](https://github.com/user-attachments/assets/ddfe7089-8392-44d0-a764-f71d2b00a0fa)
+
 
 #### 3. Monitoring avec Prometheus
 - Installez Prometheus et Grafana dans le namespace monitoring.
