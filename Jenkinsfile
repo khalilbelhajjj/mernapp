@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'git@github.com:khalilbelhajjj/appmern.git',
+                    url: 'git@github.com:khalilbelhajjj/mernapp.git',
                     credentialsId: 'github_ssh'
             }
         }
